@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8e8f7a88-038a-414f-b716-886265fc7e82</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Core</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppStart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IFooService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\SecondViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\FirstViewModel.cs" />
+  </ItemGroup>
+</Project>

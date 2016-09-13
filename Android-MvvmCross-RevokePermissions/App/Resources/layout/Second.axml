@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:id="@+id/Second_PublishText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Tap 'Publish message'" />
+  <Button
+    android:id="@+id/Second_PublishMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Publish message"/>
+  <TextView
+      android:id="@+id/Second_SettingsText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Message received? Open settings, enable and disable camera access, come back here." />
+  <Button
+    android:id="@+id/Second_OpenSettings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Open settings"/>
+  <TextView
+      android:id="@+id/Second_PublishNotWorkingText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Tap 'Publish message' - you won't receive a message, FooService not started." />
+</LinearLayout>
